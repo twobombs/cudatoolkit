@@ -1,2 +1,2 @@
 FROM: nvidia/cuda:9.2-devel-ubuntu16.04
-RUN apt-get update && apt-get install -y cmake build-essential mc lynx nvidia-cuda-toolkit && apt-get clean all
+RUN apt-get update && apt-get install -y cmake build-essential mc lynx nvidia-cuda-toolkit cuda-samples-11-2 && apt-get clean all
