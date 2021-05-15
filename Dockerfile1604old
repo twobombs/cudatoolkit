@@ -1,0 +1,3 @@
+FROM nvidia/cuda:8.0-devel-ubuntu16.04
+RUN apt-get update && apt-get install -y cmake build-essential mc lynx nvidia-cuda-toolkit cuda-samples-8-0 && apt-get clean all
+RUN cd /usr/local/cuda-8.0/samples && make -k
