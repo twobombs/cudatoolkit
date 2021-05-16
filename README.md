@@ -1,3 +1,3 @@
 # cudatoolkit
 docker based cudatoolkit dev environment 
-for CUDA 8.0, 9.2 and 11.3
+for CUDA 8.0, 9.2 and 11.3 with samples
